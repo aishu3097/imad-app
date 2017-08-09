@@ -9,7 +9,7 @@ var articleOne = {
     title: 'Article One | Aishwarya',
     heading: 'Article One',
     date: 'Aug 9,2017',
-    contentt: ` 
+    content: ` 
             <p>
             This is the content of my first article. This is the content of my first article. This is the content of my first article. This is the content of my first article. This is the content of my first article. This is the content of my first article. This is the content of my first article. This is the content of my first article. This is the content of my first article. This is the content of my first article. This is the content of my first article. This is the content of my first article.
             </p>
@@ -49,7 +49,6 @@ function createTemplate (data) {
         </div>
         <div>
            ${content}
-            
         </div>
         </div>
     </body>
