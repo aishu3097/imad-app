@@ -25,7 +25,7 @@ var articles = {
  'article-two' : {
     title: 'Article Two | Aishwarya',
     heading: 'Article Two',
-    date: 'Aug 11,2017',
+    date: 'Aug 9,2017',
     content: ` 
             <p>
             This is the content of my second article.
@@ -35,7 +35,7 @@ var articles = {
 'article-three' : {
     title: 'Article Three | Aishwarya',
     heading: 'Article Three',
-    date: 'Aug 11,2017',
+    date: 'Aug 9,2017',
     content: ` 
             <p>
             This is the content of my third article.
