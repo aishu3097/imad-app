@@ -11,4 +11,7 @@ button.onclick = function () {
                  }
         }
     };
+    
+    request.open('GET','http://aishu300897.imad.hasura-app.io/counter',true);
+    request.send(null);
     };
