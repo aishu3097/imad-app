@@ -16,7 +16,9 @@ button.onclick = function () {
     request.send(null);
     };
     
-   
+    var nameInput = document.getElementById('name');
+    var name = nameInput.value;
+    
     var submit = document.getElementById('submit_btn');
     submit.onclick = function () {
         
@@ -36,9 +38,7 @@ button.onclick = function () {
         }
     };
     
-     var nameInput = document.getElementById('name');
-    var name = nameInput.value;
-    
+   
     request.open('GET','http://aishu300897.imad.hasura-app.io/counter',true);
     request.send(null);
     };
